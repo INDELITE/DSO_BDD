@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="06ef4c5b-7847-4ac6-bf3d-968c0b4ca3c4" ChangeDateTime="09/13/2019 13:59:44">
+    <Property Name="ElementName" Value="[dbo].[Point_Distrib].[HeureDebut]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Point_Distrib]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="heureDebut" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="53652bec-f8ad-4bad-bdc3-9546fa27e1bc" ChangeDateTime="09/13/2019 13:59:46">
+    <Property Name="ElementName" Value="[dbo].[Point_Distrib].[HeureFin]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Point_Distrib]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="heureFin" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ae83fc15-62b1-47ac-92ef-5606b6f87803" ChangeDateTime="02/01/2020 20:09:43">
+    <Property Name="ElementName" Value="[dbo].[Asso].[idCouleurFond]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Asso]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FKCouleurFond" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="40e93af7-b473-44c4-9f2b-bb280f858121" ChangeDateTime="02/01/2020 20:12:04">
+    <Property Name="ElementName" Value="[dbo].[Asso].[FKCouleurFond]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Asso]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="idCouleurFond" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="68e2d5e2-f853-42cd-b6aa-f4a2d922098e" ChangeDateTime="02/01/2020 20:12:10">
+    <Property Name="ElementName" Value="[dbo].[Asso].[FKCouleurText]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Asso]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdCouleurText" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="74c5954d-2b76-491e-a9ad-0164ea94556e" ChangeDateTime="02/01/2020 20:12:13">
+    <Property Name="ElementName" Value="[dbo].[Asso].[idCouleurFond]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Asso]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdCouleurFond" />
+  </Operation>
+</Operations>

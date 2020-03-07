@@ -1,0 +1,2 @@
+﻿CREATE USER [DESKTOP-VO9MHCQ\Administrateur] FOR LOGIN [DESKTOP-VO9MHCQ\Administrateur];
+
